@@ -1,19 +1,19 @@
 @charset "utf-8";
 
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
 $cor1:#073c6a;
 $cor2:#0270ea;
 $cor3:#00e4ff;
 $cor4:#3f444b;
 $cor5:#f0f0f0;
 
-$font:-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;
-
 
 *{
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
-    font-family: $font;
+    font-family: "Montserrat", Arial, Helvetica, sans-serif;
 }
 
 html{
