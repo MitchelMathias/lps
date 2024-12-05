@@ -96,16 +96,20 @@ main .pag01 article {
   display: flex;
   flex-flow: row wrap-reverse;
   justify-content: space-between;
+  align-items: center;
 }
 main .pag01 article img {
   border-radius: 50px;
-  max-width: 50%;
+  max-width: 550px;
+  max-height: 450px;
+  min-width: 0px;
+  min-height: 0px;
 }
 main .pag01 article div {
   padding: 20px;
   margin: 10px auto 30px auto;
   text-align: justify;
-  flex: 1 1 500px;
+  flex: 1 0 350px;
 }
 main .pag01 article div h2 {
   font-size: 2em;
@@ -151,8 +155,7 @@ main .pag03 div {
 main .pag03 div img {
   margin: 10px;
   border-radius: 50px;
-  width: 48%;
-  height: 40%;
+  height: 200px;
 }
 main .pag03 div:hover, main .pag03 div:focus {
   overflow-x: scroll;
@@ -164,10 +167,9 @@ main .pag04 {
   padding-bottom: 30px;
 }
 main .pag04 h2 {
-  margin: 30px auto !important;
+  margin: 30px auto;
   width: 90%;
   font-size: 2em;
-  margin: 30px 0px;
   color: #073c6a;
 }
 main .pag04 button {
@@ -199,56 +201,59 @@ footer .informacoes {
   display: flex;
   justify-content: space-evenly;
 }
-footer .logo {
+footer .informacoes div {
+  width: 30%;
+}
+footer .informacoes div img {
+  width: 40px;
+}
+footer .informacoes .logo {
   width: 20%;
 }
-footer .logo img {
+footer .informacoes .logo img {
   width: 80%;
 }
-footer .redes_sociais {
+footer .informacoes .redes_sociais {
   width: 20%;
 }
-footer .redes_sociais a {
+footer .informacoes .redes_sociais a {
   color: #073c6a;
   text-decoration: none;
 }
-footer .redes_sociais a i {
+footer .informacoes .redes_sociais a i {
   font-size: 2.5em;
   margin: 10px 2px;
   border-radius: 100%;
   width: 30%;
 }
-footer .redes_sociais a i:hover, footer .redes_sociais a i:focus {
+footer .informacoes .redes_sociais a i:hover, footer .informacoes .redes_sociais a i:focus {
   cursor: pointer;
 }
-footer .endereco {
+footer .informacoes .endereco {
   text-align: justify;
   width: 50%;
 }
-footer .endereco h4 {
-  margin-bottom: 20px;
+footer .informacoes .endereco h4 {
+  margin-bottom: 10px;
 }
-footer .endereco p {
+footer .informacoes .endereco p {
   margin-bottom: 5px;
 }
-footer .endereco p a {
+footer .informacoes .endereco p a {
   color: black;
   text-decoration: none;
 }
-footer .endereco p a:hover {
+footer .informacoes .endereco p a:hover {
   text-decoration: underline;
 }
-footer div {
-  width: 30%;
-}
-footer div img {
-  width: 40px;
-}
 footer .fim {
+  width: 100%;
   display: flex;
   justify-content: space-between;
-  margin-top: 5px;
-  width: 100%;
+  font-size: 0.8em;
+}
+footer .fim p {
+  font-weight: bold;
 }
 
 @media screen and (max-width: 650px) {
@@ -261,25 +266,18 @@ footer .fim {
   header .conteudoHeader img {
     height: 30px;
   }
-  .pag01 article img {
-    max-width: 90% !important;
-  }
   .pag03 div img {
-    width: 97% !important;
-  }
-  .pag04 h2 {
-    width: 90%;
-    margin: 30px auto !important;
+    width: 97%;
   }
   footer .informacoes {
     flex-flow: column;
   }
-  footer .informacoes div {
+  footer .informacoes .logo, footer .informacoes .endereco, footer .informacoes .redes_sociais {
     text-align: center;
     width: 100%;
     padding-bottom: 30px;
   }
   footer .fim p {
-    font-size: 0.6em !important;
+    font-size: 0.8em;
   }
 }/*# sourceMappingURL=style.css.map */
