@@ -269,6 +269,9 @@ footer .fim p {
   .pag01 article img {
     width: 90%;
   }
+  .pag03 div {
+    overflow-x: scroll !important;
+  }
   .pag03 div img {
     width: 97%;
   }
