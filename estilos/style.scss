@@ -269,10 +269,10 @@ footer{
         }
     }
     .fim{
-        margin-top: 20px;
-        width: 100%;
         display: flex;
         justify-content: space-between;
+        margin-top: 5px;
+        width: 100%;
     }
 }
 
@@ -293,6 +293,14 @@ footer{
         }
     }
 
+    .pag01{
+        article{
+            img{
+                max-width: 90% !important;
+            }
+        }
+    }
+
     .pag03{
         div{
             img{
@@ -305,6 +313,24 @@ footer{
         h2{
             width: 90%;
             margin: 30px auto !important;
+        }
+    }
+
+    footer{
+        .informacoes{
+            flex-flow: column;
+            div{
+                text-align: center;
+                width: 100%;
+                padding-bottom: 30px;
+            }
+            
+        }
+        .fim{
+
+            p{
+                font-size: .6em !important;
+            }
         }
     }
 }

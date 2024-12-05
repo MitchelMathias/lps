@@ -1,8 +1,9 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
 * {
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+  font-family: "Montserrat", Arial, Helvetica, sans-serif;
 }
 
 html ::-webkit-scrollbar {
@@ -244,10 +245,10 @@ footer div img {
   width: 40px;
 }
 footer .fim {
-  margin-top: 20px;
-  width: 100%;
   display: flex;
   justify-content: space-between;
+  margin-top: 5px;
+  width: 100%;
 }
 
 @media screen and (max-width: 650px) {
@@ -260,11 +261,25 @@ footer .fim {
   header .conteudoHeader img {
     height: 30px;
   }
+  .pag01 article img {
+    max-width: 90% !important;
+  }
   .pag03 div img {
     width: 97% !important;
   }
   .pag04 h2 {
     width: 90%;
     margin: 30px auto !important;
+  }
+  footer .informacoes {
+    flex-flow: column;
+  }
+  footer .informacoes div {
+    text-align: center;
+    width: 100%;
+    padding-bottom: 30px;
+  }
+  footer .fim p {
+    font-size: 0.6em !important;
   }
 }/*# sourceMappingURL=style.css.map */
