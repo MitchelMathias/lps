@@ -258,13 +258,16 @@ footer .fim p {
 
 @media screen and (max-width: 650px) {
   h1 {
-    font-size: 1.7em !important;
+    font-size: 1.5em !important;
   }
   h2 {
-    font-size: 1.3em !important;
+    font-size: 1.2em !important;
   }
   header .conteudoHeader img {
     height: 30px;
+  }
+  .pag01 article img {
+    width: 100%;
   }
   .pag03 div img {
     width: 97%;
