@@ -79,10 +79,25 @@ main{
         flex-flow: column nowrap;
         justify-content: center;
         align-items: center;
+        .foto_texto{
+            margin-top: 50px;
+            width: 90%;
+            flex-flow: row wrap;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            h1{
+                max-width: 450px;
+            }
+            img{
+                width: 50%;;
+                min-width: 270px;
+            }
+        }
         h1{
             font-weight: 400;
             width: 100%;
-            font-size: 2.2em;
+            font-size: 2.3em;
             color: white;
             text-align: center;
             margin: 50px auto 20px auto;

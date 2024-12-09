@@ -65,10 +65,25 @@ main .pag01 {
   justify-content: center;
   align-items: center;
 }
+main .pag01 .foto_texto {
+  margin-top: 50px;
+  width: 90%;
+  flex-flow: row wrap;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+main .pag01 .foto_texto h1 {
+  max-width: 450px;
+}
+main .pag01 .foto_texto img {
+  width: 50%;
+  min-width: 270px;
+}
 main .pag01 h1 {
   font-weight: 400;
   width: 100%;
-  font-size: 2.2em;
+  font-size: 2.3em;
   color: white;
   text-align: center;
   margin: 50px auto 20px auto;
