@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
 * {
   margin: 0px;
   padding: 0px;
@@ -82,7 +82,7 @@ main .pag01 a button {
   border: none;
   cursor: pointer;
   color: white;
-  background-color: #03559c;
+  background-color: #00C566;
   font-weight: bolder;
   border-radius: 30px;
   padding: 15px;
@@ -113,6 +113,7 @@ main .pag01 article div {
 }
 main .pag01 article div h2 {
   font-size: 2em;
+  text-align: left;
 }
 main .pag01 article div li {
   text-indent: 2em;
