@@ -150,7 +150,6 @@ main .pag03 div {
   cursor: grab;
   margin: auto;
   width: 90%;
-  overflow: visible;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -159,7 +158,6 @@ main .pag03 div img {
   height: auto;
   margin: 0 auto 15px 20px;
   border-radius: 20px;
-  transition: transform 0.3s ease;
 }
 main .pag04 {
   padding-top: 30px;
