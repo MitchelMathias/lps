@@ -174,12 +174,10 @@ main{
             justify-content: center;
             align-items: center;
             img{
+                height: auto;
                 margin: 0 auto 15px 20px;
                 border-radius: 20px;
                 transition: transform 0.3s ease;
-                &:hover{
-                    transform: scale(1.4);
-                }
             }
         }
     }

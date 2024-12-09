@@ -156,12 +156,10 @@ main .pag03 div {
   align-items: center;
 }
 main .pag03 div img {
+  height: auto;
   margin: 0 auto 15px 20px;
   border-radius: 20px;
   transition: transform 0.3s ease;
-}
-main .pag03 div img:hover {
-  transform: scale(1.4);
 }
 main .pag04 {
   padding-top: 30px;
