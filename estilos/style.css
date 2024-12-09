@@ -78,6 +78,7 @@ main .pag01 img {
   margin: 0px auto 0px auto;
 }
 main .pag01 a button {
+  text-transform: uppercase;
   margin-bottom: 40px;
   border: none;
   cursor: pointer;
