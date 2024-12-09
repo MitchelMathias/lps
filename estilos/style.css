@@ -74,11 +74,12 @@ main .pag01 .foto_texto {
   align-items: center;
 }
 main .pag01 .foto_texto h1 {
-  max-width: 450px;
+  flex: 1 1 400px;
+  max-width: 400px;
 }
 main .pag01 .foto_texto img {
-  width: 50%;
-  min-width: 270px;
+  width: 40%;
+  min-width: 250px;
 }
 main .pag01 h1 {
   font-weight: 400;

@@ -87,11 +87,12 @@ main{
             justify-content: space-between;
             align-items: center;
             h1{
-                max-width: 450px;
+                flex: 1 1 400px;
+                max-width: 400px;
             }
             img{
-                width: 50%;;
-                min-width: 270px;
+                width: 40%;;
+                min-width: 250px;
             }
         }
         h1{
