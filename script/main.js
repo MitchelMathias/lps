@@ -1,5 +1,4 @@
 $(document).ready(function () {
-    // Verifica se a carrousel já foi inicializada antes
     if ($('.carrousel').hasClass('slick-initialized')) {
         $('.carrousel').slick('unslick');
     }
