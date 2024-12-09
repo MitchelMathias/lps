@@ -137,6 +137,7 @@ main .pag02 h2 {
   text-align: center;
 }
 main .pag03 {
+  width: 100%;
   padding: 30px 0px;
   background-color: #073c6a;
   text-align: center;
@@ -146,19 +147,21 @@ main .pag03 h1 {
   color: white;
 }
 main .pag03 div {
+  cursor: grab;
   margin: auto;
-  width: 80%;
+  width: 90%;
+  overflow: visible;
   display: flex;
-  flex-flow: row nowrap;
-  overflow-x: hidden;
+  justify-content: center;
+  align-items: center;
 }
 main .pag03 div img {
-  margin: 10px;
-  border-radius: 50px;
-  height: 200px;
+  margin: 0 auto 15px 20px;
+  border-radius: 20px;
+  transition: transform 0.3s ease;
 }
-main .pag03 div:hover, main .pag03 div:focus {
-  overflow-x: scroll;
+main .pag03 div img:hover {
+  transform: scale(1.4);
 }
 main .pag04 {
   padding-top: 30px;
@@ -268,12 +271,7 @@ footer .fim p {
   }
   .pag01 article img {
     width: 90%;
-  }
-  .pag03 div {
-    overflow-x: scroll !important;
-  }
-  .pag03 div img {
-    width: 97%;
+    margin: auto;
   }
   footer .informacoes {
     flex-flow: column;
