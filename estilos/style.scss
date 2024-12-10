@@ -90,6 +90,9 @@ main{
                 width: 45%;;
                 min-width: 250px;
             }
+            .img_mobile{
+                display: none;
+            }
         }
         h1{
             font-weight: 400;
@@ -312,6 +315,12 @@ footer{
         .foto_texto{
             img{
                 width: 90% !important;
+            }
+            .img_desktop{
+                display: none !important;
+            }
+            .img_mobile{
+                display: block !important;
             }
         }
         article{

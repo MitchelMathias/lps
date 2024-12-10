@@ -77,6 +77,9 @@ main .pag01 .foto_texto img {
   width: 45%;
   min-width: 250px;
 }
+main .pag01 .foto_texto .img_mobile {
+  display: none;
+}
 main .pag01 h1 {
   font-weight: 400;
   width: 100%;
@@ -280,6 +283,12 @@ footer .fim p {
   }
   .pag01 .foto_texto img {
     width: 90% !important;
+  }
+  .pag01 .foto_texto .img_desktop {
+    display: none !important;
+  }
+  .pag01 .foto_texto .img_mobile {
+    display: block !important;
   }
   .pag01 article img {
     width: 90%;
