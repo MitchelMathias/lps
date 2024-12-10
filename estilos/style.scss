@@ -86,12 +86,8 @@ main{
             display: flex;
             justify-content: space-between;
             align-items: center;
-            h1{
-                flex: 1 1 400px;
-                max-width: 400px;
-            }
             img{
-                width: 40%;;
+                width: 45%;;
                 min-width: 250px;
             }
         }
@@ -313,6 +309,11 @@ footer{
     }
 
     .pag01{
+        .foto_texto{
+            img{
+                width: 90% !important;
+            }
+        }
         article{
             img{
                 width: 90%;
